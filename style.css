@@ -1,0 +1,124 @@
+
+.nav-item{
+    margin: 10px;
+}
+
+.dc{
+    /* font-size: 50px; */
+    color: orangered;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 40px;
+    font-weight: 900;
+}
+.nav-link{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 99, 71)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* carousal */
+.dots{
+    width: 40px !important;
+    height: 30px !important;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 15;
+  width: 15px;
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+  text-align: center;
+}
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  margin: 10px 0;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.carousel-indicators .active {
+  background-color: #000;
+}
+/* .carousel-inner{ 
+    z-index: 1;
+} */
+.carousel-caption{
+    bottom: 300px;    
+}
+.carousel-indicators{
+    margin-top: 50px;
+    margin-left: 20px;       
+}
+.headings{
+    font-size: 60px;
+    font-weight: 900;
+}
+.image-one{
+    padding: 17px;
+    border: 2px solid lightgrey;
+}
+.mirror-image{
+    margin-top: 8%;
+}
+.office{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.services{
+    margin-top: 8%;
+}
+.experience{
+    margin-top: 8%;
+}
+.slick-ccarousel{
+    margin-top: 8%;
+}
+.premium{
+    margin-top: 8%;
+}
+
+
+.flink{
+    color: orange !important;
+}
+
+
+@media screen and (max-width: 480px){
+    .carousel-indicators{
+        margin-top: 10px;
+        margin-left: 10px;       
+    }
+    .dots{
+        width: 20px !important;
+        height: 14px !important;
+    }
+    .carousel-caption{
+       top: 0px;
+    }
+    .carousel-caption , h1{
+        font-size: 20px !important;
+    }
+    .carousel-caption , h6 {
+        font-size: 12px !important;
+    }
+    .text-start{
+        margin-top: -60px;
+    }
+    .main-btn{
+        height: 30px;
+        width: 111px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+}
